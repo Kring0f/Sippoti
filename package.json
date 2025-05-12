@@ -1,0 +1,27 @@
+{
+  "name": "kringoforj",
+  "version": "1.0.0",
+  "description": "A Telegram bot deployed on Vercel",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "engines": {
+    "node": ">=14.x"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "node-fetch": "^2.6.1",
+    "axios": "latest",
+    "awesome-phonenumber": "latest",
+    "libphonenumber-js": "latest",
+    "brotli-wasm": "latest",
+    "brotli": "latest",
+    "cheerio": "latest",
+    "cookie": "latest"
+  },
+  "license": "MIT"
+}
